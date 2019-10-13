@@ -1,0 +1,23 @@
+{
+  "name": "linguistics-major",
+  "version": "1.0.0",
+  "description": "A visual history of the linguistics major.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spec-journalism/linguistics-major.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spec-journalism/linguistics-major/issues"
+  },
+  "homepage": "https://github.com/spec-journalism/linguistics-major#readme",
+  "devDependencies": {
+    "posthtml-include": "^1.3.0"
+  }
+}
