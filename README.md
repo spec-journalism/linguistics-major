@@ -4,6 +4,7 @@ A visual history of the linguistics major.
 
 1. Install [ai2html](http://ai2html.org/)
 2. Install [Parcel](https://parceljs.org/getting_started.html)
+3. Clone this repository: `git clone git@github.com:spec-journalism/linguistics-major.git`
 
 ## Setup
 
