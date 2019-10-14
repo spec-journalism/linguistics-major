@@ -7,7 +7,7 @@ deploy:
 
 clean:
 	rm -rf dist
-  git worktree prune
+	git worktree prune
 	mkdir dist
 	git worktree add dist gh-pages
 
