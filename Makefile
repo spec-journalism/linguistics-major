@@ -1,8 +1,11 @@
-.PHONY: deploy clean
+.PHONY: download deploy clean
+
+download:
+	node process/download-doc.js
 
 deploy:
 	rm -rf dist/*
-	parcel build public/index.html --public-url ./
+	npm run build
 	cd dist && git add . && git commit -m 'Deploy to gh-pages' && git push origin gh-pages
 
 clean:

@@ -1,19 +1,49 @@
 <html>
-  <head>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,500&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-    body {
-      margin: 0;
-    }
-    * {
-      font-family: 'Roboto', sans-serif !important;
-      font-weight: 400 !important;
-    }
-    </style>
-  </head>
 
-  <body>
-    <include src="public/linguistics.html"></include>
-  </body>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <title>{{ headline }}</title>
+  <link rel="stylesheet" href="./styles.scss">
+  <link rel="shortcut icon" href="https://www.columbiaspectator.com/pb/resources/img/CDS_Favicon.ico" type="image/x-icon"/>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <include src="partials/navbar.html"></include>
+
+  <if condition="USE_COVER_HED">    
+    <include src="partials/header-cover.html"></include>
+  </if>
+  <else>
+    <include src="partials/header.html"></include>
+  </else>
+
+
+  <div class="story">
+    <each loop="item in body">
+      <switch expression="item.type">
+        <case n="'text'">
+          <include src="partials/paragraph.html"></include>
+        </case>
+        <case n="'graphic'">
+          <div class="graphic">
+            <if condition="item.value.asset === 'linguistics.html'">
+              <include src="linguistics.html"></include>
+            </if>
+          </div>
+        </case>
+      </switch>
+    </each>
+  </div>
+
+  <div class="spectate-dev-footer">
+    <a href="{{ DOC_URL }}" target="_blank">Doc</a>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
 </html>
