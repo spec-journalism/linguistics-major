@@ -75,10 +75,10 @@ const LOCALS_FILLER_STR = 'BODY_LOCALS';
 const PH_CONFIG = `{
   "plugins": {
     "posthtml-include": {
-      "root": "./public"
+      "root": "./src"
     },
     "posthtml-expressions": {
-      "root": "./public/partials",
+      "root": "./src/partials",
       "locals": ${LOCALS_FILLER_STR}
     }
   }
