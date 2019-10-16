@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../assets/fonts/Georgia.ttf":[["Georgia.2d7dec90.ttf","../assets/fonts/Georgia.ttf"],"../assets/fonts/Georgia.ttf"],"./../assets/fonts/Georgia Italic.ttf":[["Georgia Italic.ea4d62e2.ttf","../assets/fonts/Georgia Italic.ttf"],"../assets/fonts/Georgia Italic.ttf"],"./../assets/fonts/Georgia Bold.ttf":[["Georgia Bold.4c75a541.ttf","../assets/fonts/Georgia Bold.ttf"],"../assets/fonts/Georgia Bold.ttf"],"./../assets/fonts/Graphik-400-Regular.otf":[["Graphik-400-Regular.f2c89443.otf","../assets/fonts/Graphik-400-Regular.otf"],"../assets/fonts/Graphik-400-Regular.otf"],"./../assets/fonts/Graphik-600-Semibold.otf":[["Graphik-600-Semibold.201604d8.otf","../assets/fonts/Graphik-600-Semibold.otf"],"../assets/fonts/Graphik-600-Semibold.otf"],"./../assets/fonts/Graphik-700-Bold.otf":[["Graphik-700-Bold.70e196b2.otf","../assets/fonts/Graphik-700-Bold.otf"],"../assets/fonts/Graphik-700-Bold.otf"],"./../assets/fonts/PlayfairDisplay-Bold.ttf":[["PlayfairDisplay-Bold.1bbb4f95.ttf","../assets/fonts/PlayfairDisplay-Bold.ttf"],"../assets/fonts/PlayfairDisplay-Bold.ttf"],"./../assets/fonts/PlayfairDisplay-Regular.ttf":[["PlayfairDisplay-Regular.da2e02e7.ttf","../assets/fonts/PlayfairDisplay-Regular.ttf"],"../assets/fonts/PlayfairDisplay-Regular.ttf"],"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60930" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61891" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
