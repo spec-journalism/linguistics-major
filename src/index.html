@@ -29,8 +29,11 @@
         </case>
         <case n="'graphic'">
           <div class="graphic">
-            <if condition="item.value.asset === 'linguistics.html'">
-              <include src="linguistics.html"></include>
+            <if condition="item.value.asset === 'linguistics-1.html'">
+              <include src="linguistics-1.html"></include>
+            </if>
+            <elseif condition="item.value.asset === 'linguistics-2.html'">
+              <include src="linguistics-2.html"></include>
             </if>
           </div>
         </case>
