@@ -10,6 +10,7 @@ $fade-transition-duration: 0.25s;
 
 body {
   margin: 0;
+  padding-bottom: 40px; 
 }
 
 h1, p {
@@ -103,7 +104,7 @@ header {
     font-family: $graphik;
     font-size: 16px;
     line-height: 1.6;
-    font-weight: 400;   
+    font-weight: 400;
   }
 
   .headline {
@@ -424,7 +425,7 @@ header {
 }
 
 .graphic {
-  margin: 0 auto 25px auto;
+  margin: 0 auto;
 }
 
 .spectate-dev-footer {

@@ -41,6 +41,7 @@
 }
 body {
   margin: 0;
+  padding-bottom: 40px;
 }
 
 h1, p {
@@ -410,7 +411,7 @@ header .inline-credits {
   }
 }
 .graphic {
-  margin: 0 auto 25px auto;
+  margin: 0 auto;
 }
 
 .spectate-dev-footer {
@@ -444,6 +445,10 @@ header .inline-credits {
   background-color: #ccc;
   margin-top: 29px;
   margin-bottom: 30px;
+}
+
+#g-linguistics-3-box {
+  margin-bottom: 60px !important;
 }
 
 /*# sourceMappingURL=/styles.164d45a1.css.map */
