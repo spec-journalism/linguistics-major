@@ -451,4 +451,8 @@ header .inline-credits {
   margin-bottom: 60px !important;
 }
 
+.graphic {
+  max-width: 960px;
+}
+
 /*# sourceMappingURL=/styles.164d45a1.css.map */
