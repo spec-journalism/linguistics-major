@@ -1,4 +1,4 @@
-A visual history of the linguistics major.
+A visual history of the linguistics major. This story was built with [Spectate](https://github.com/spec-journalism/spectate).
 
 ## Prerequisites
 
