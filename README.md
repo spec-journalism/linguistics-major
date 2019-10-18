@@ -11,4 +11,4 @@ A visual history of the linguistics major. This story was built with [Spectate](
 1. In the repository, run `npm install`.
 2. Run `npm run dev` to start a live reloading development server at `localhost:1234`.
 3. To update the Doc content, run `make download`.
-4. To update the Illlustrator content, run the `ai2html` script in Illustrator and refresh the `localhost` page.
+4. To update the Illlustrator content, run the `ai2html` script in Illustrator and the page should automatically refresh.
